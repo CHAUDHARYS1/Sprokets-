@@ -14,3 +14,20 @@ Thorough out the course, we learned about different way to actually deal with we
 Form validation was one of the things that I enjoyed the most because how good my validation were going to determine how good the accessibility of the website was going to be. 
 
 If I were to fix something and do better would off course be my validations. Because I used Javascript as the main source of validations, I skipped over PHP’s validation. Knowing now that users have the ability to turn off Javascript, which can totally make my validation worthless, I will definitely be using PHP’s validations as well.
+
+MAIN FEATURES:
+  + Landing Page
+  + Signup Marathon
+  + Login / Register
+
+MAIN FOCUS:
+  + Web Accessability
+  + Javascript form validations
+  + PHP and database
+
+NOTE: To login, you can use an excisting account or create a new one.
+
+   EMAIL: test@test.com
+   PASSWORD: test
+
+You can view this project at: http://thedesignerisland.com/sprokets/
