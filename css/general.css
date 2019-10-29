@@ -1,0 +1,168 @@
+/* General Css that goes applies on all other pages */
+.underline-gradient {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent), color-stop(65%, #DACFFF), color-stop(90%, #5C2CFF), color-stop(90%, transparent), to(transparent));
+	background-image: linear-gradient(transparent 0%, transparent 65%, #DACFFF 65%, #5C2CFF 90%, transparent 90%, transparent);
+}
+
+h1 {
+	font-size: 5rem;
+	color: #282828;
+	font-family: "futura-pt-bold";
+	letter-spacing: -6px;
+}
+
+h2 {
+	font-size: 2rem;
+	letter-spacing: -3;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: #282828;
+}
+
+h4 {
+	font-size: 3rem;
+}
+
+h5 {
+	font-size: 2rem;
+}
+
+h6 {
+	font-size: 1.3rem;
+}
+
+p {
+	font-size: 1.2rem;
+	color: #535353;
+	font-family: calibri;
+	line-height: 2rem;
+}
+
+span {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 16;
+}
+
+.primary-bg {
+	background: #5D2DFF;
+}
+
+.primary-text {
+	color: #5D2DFF;
+}
+
+.gradient-bg {
+	background-image: linear-gradient(71.89085632227182deg, rgba(237, 97, 255, 1) 30.089285714285715%, rgba(236, 96, 255, 1) 30.089285714285715%, rgba(93, 45, 255, 1) 74.13690476190476%);
+
+}
+
+.nav-link {
+	padding: 0;
+	margin-right: 20px;
+}
+
+i {
+	vertical-align: sub;
+}
+
+
+#navbar {
+	background: transparent;
+}
+
+#logo:hover {
+	opacity: 0.5;
+}
+
+.form-errors {
+	color: red;
+	letter-spacing: normal;
+	font-family: calibri;
+	text-transform: capitalize;
+	font-size: 1rem;
+
+}
+
+.actual-button {
+	background: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	padding-left: 1rem;
+	border: none;
+}
+
+.actual-button:hover {
+	opacity: .5;
+}
+
+.hoverable-icons {
+	font-size: 2rem;
+	background: #5D2DFF;
+	color: white;
+	padding: .4rem;
+	vertical-align: sub;
+	margin-left: 1rem;
+}
+
+.hoverable-icons:hover {
+	opacity: .5;
+}
+
+input:focus {
+	background: #5D2DFF;
+	color: white;
+}
+
+input[type=text] {
+	font-weight: bold;
+}
+
+input[type=number] {
+	font-weight: bold;
+}
+
+
+input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #C0C0C0;
+	font-weight: normal;
+}
+
+.caps-lock-error {
+	display: none;
+	color: orange;
+}
+
+/* Back to Top Feature  */
+.to-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: none;
+	z-index: 998;
+}
+
+.to-top a {
+	color: #282828;
+	text-decoration: none;
+}
+
+.to-top a:hover {
+	opacity: .5;
+}
+
+/* End Back to Top Feature  */
+
+
+
+
+/* End General */

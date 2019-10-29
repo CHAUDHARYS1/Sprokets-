@@ -1,0 +1,405 @@
+@import url("https://use.typekit.net/may4jjf.css");
+@import "general.css";
+@import "footer.css";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "futura-pt";
+	background: white;
+}
+
+
+
+
+
+/***************** INDEX PAGE CSS *****************/
+
+
+/* Main Content  */
+#homeView {
+	z-index: 10;
+	min-height: 100vh;
+	min-width: 100vh;
+}
+
+.main-content {
+	background-image: url(../images/image-two.png);
+	background-position: 20% 60%;
+	min-height: 100vh;
+	min-width: 100vh;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+.call-to-action {
+	background: rgb(93, 45, 255, .3);
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	width: 50%;
+}
+
+.actual-content {
+	position: absolute;
+	right: 0;
+	min-height: 100vh;
+	top: 25%;
+	margin-right: 5rem;
+}
+
+
+.main-content {
+	width: 100vw;
+	max-height: 100vh;
+}
+
+.home-h1 {
+	font-size: 7rem;
+	position: relative;
+}
+
+
+.main-btn {
+	margin-top: 3rem;
+}
+
+.form-control:focus {
+	border: 2px solid #5D2DFF !imporant;
+}
+
+#subscribe {}
+
+.arrow {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.arrow span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid #5D2DFF;
+	border-right: 2px solid #5D2DFF;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin: -10px;
+	-webkit-animation: animate 2s infinite;
+	animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+	-webkit-animation-delay: -0.2s;
+	animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+	-webkit-animation-delay: -0.4s;
+	animation-delay: -0.4s;
+}
+
+@-webkit-keyframes animate {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate(45deg) translate(-20px, -20px);
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: rotate(45deg) translate(20px, 20px);
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate(45deg) translate(-20px, -20px);
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: rotate(45deg) translate(20px, 20px);
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+/* End Main Content  */
+
+/* Full Service Shop  */
+.bikeImg {
+	background-image: url(../images/image-eight.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	width: 100%;
+}
+
+/* End Full Service Shop  */
+/* Mamba X  */
+#blackBikeImage {
+	background-image: url('../images/black-bike.jpg');
+	background-position: 10% 40%;
+	background-size: cover;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+
+#blackBikeImage h1,
+#blackBikeImage p {
+	color: white;
+}
+
+/* End Mamba X  */
+/* Bikers Marathon  */
+.marathon-left,
+.marathon-left p {
+	color: white;
+}
+
+.marathon-right {
+	background-image: url('../images/marathon-bike.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.marathon .date {
+	font-size: .9rem;
+	font-weight: bold;
+
+}
+
+.marathon .location {
+	font-size: .7rem;
+}
+
+/* End Bikers Marathon  */
+/* Bike Products  */
+.price {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.span-two {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: .9rem;
+}
+
+/* End Bike Products  */
+/* Retro Bikes and Used Bikes */
+#retroBikes {
+	background-image: url('../images/retrobike.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	background-repeat: no-repeat;
+	line-height: -px;
+	text-align: center;
+}
+
+#usedBikes {
+	background-image: url('../images/used.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	background-repeat: no-repeat;
+	line-height: -10px;
+	text-align: center;
+}
+
+/* End Retro Bikes and Used Bikes */
+/* Synchrony Finiancal bank banner*/
+
+#banner {
+	background-image: url(../images/image-seven.png);
+	background-position: 20% 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+
+#banner img {
+	float: right;
+}
+
+.special-finance {
+	padding-top: 20%;
+	position: relative;
+}
+
+/* End Synchoony bank banner*/
+/* Book appointment  */
+
+#bookAppointment {
+	background-image: url('../images/concrete-texture.png');
+	background-size: contain;
+}
+
+/* End Book appointment */
+
+/* Seach Bar  */
+.search-bar {
+	margin-top: 3.8rem;
+	vertical-align: sub;
+	display: none;
+	left: 25%;
+	z-index: 800;
+	position: fixed;
+}
+
+.search-bar input {
+	width: 100%;
+	padding: .5rem;
+}
+
+.search-bar input[type="text"] {
+	padding-left: 5%;
+}
+
+.search-bar i {
+	font-size: 2rem;
+	background: #5D2DFF;
+	color: white;
+	padding: .36rem;
+
+}
+
+.search-bar .icon-span {
+	margin-top: 0px;
+	position: absolute;
+}
+
+/* End Seach Bar  */
+
+
+
+
+
+
+@media screen and (max-width:1300px) {}
+
+@media screen and (max-height:800px) {
+
+	.main-content {
+		background-image: url(../images/image-two.png);
+		background-position: 40% 80%;
+		background-size: 50%;
+
+	}
+
+	.home {
+		min-height: 100vh;
+	}
+
+
+
+	#homeView {
+		min-height: inherit;
+		min-width: 100vh;
+
+	}
+
+	.call-to-action {
+		background: rgb(93, 45, 255, .3);
+		min-height: 100vh;
+		position: absolute;
+		left: 0;
+		width: 50%;
+	}
+
+	.actual-content {
+		position: relative;
+	}
+}
+
+@media only screen and (max-width:900px) {}
+
+@media only screen and (max-width:600px) {
+
+	/* Main Content  */
+
+
+	.main-content {
+		background-image: url(../images/image-two.png);
+		background-position: 20% 60%;
+
+		height: 100%;
+		min-width: 1%;
+		background-size: 70%;
+		background-repeat: no-repeat;
+		overflow-x: hidden;
+	}
+
+	.call-to-action {
+		height: 100%;
+		background: transparent;
+		position: absolute;
+		left: 0;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.actual-content {
+
+		min-height: 100%;
+		margin: 20px;
+		margin-top: 230px;
+
+
+
+	}
+
+
+	.home-h1 {
+		font-size: 4rem;
+	}
+
+
+	.main-btn {
+		margin-top: 1rem;
+	}
+
+
+	.arrow {
+		display: none;
+	}
+
+
+	/* End Main Content  */
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {}
